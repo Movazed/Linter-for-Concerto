@@ -1,0 +1,11 @@
+{
+    "rules": {
+      "scalar-camel-case": "error",
+      "require-term-decorator": { "level": "warning" },
+      "no-maps": "error",
+      "extends-base-concept": {
+        "level": "error",
+        "options": { "namespace": "org.example", "baseConcept": "Base" }
+      }
+    }
+  }
